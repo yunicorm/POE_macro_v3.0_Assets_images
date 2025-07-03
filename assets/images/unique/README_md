@@ -1,0 +1,15 @@
+# Unique Flask Capture Patterns
+
+##概要
+- ユニークフラスコのチャージとプログレスバーの状況をキャプチャした画像
+- ユニークフラスコの種類毎にフォルダに整理
+
+## ファイル構成
+unique/
+|-- cinderswallow_urn/     # Cinderswallow Urnのキャプチャデータ
+|-- wine_of_the_prophet/    # Wine of the Prophetのキャプチャデータ
+
+## ファイル命名規則
+- {flask_type}_{charge_state}_{progress_bar_state}.png
+- 例: cinderswallow_urn_c050_p000.png       # Cinderswallow Urnのチャージ量50％、プログレスバー0％の状態
+- 例: wine_of_the_prophet_c000_p090.png     # Wine of the Prophetのチャージ量0％、プログレスバー90％の状態
